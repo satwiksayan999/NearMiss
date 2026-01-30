@@ -173,44 +173,4 @@ The `dataProcessor.js` utility provides robust data handling:
 
 Chart colors can be customized by modifying the `color` prop in chart components or updating the `COLORS` array in `PieChart.jsx`.
 
-### Adding New Charts
 
-1. Create a new chart component in `src/components/charts/`
-2. Import and use it in `Dashboard.jsx`
-3. Add the necessary data processing logic in `dataProcessor.js` if needed
-
-### Modifying Filters
-
-Additional filters can be added by:
-1. Adding filter state in `Dashboard.jsx`
-2. Creating filter UI elements
-3. Implementing filter logic in `dataProcessor.js`
-4. Applying filters in the `filteredData` useMemo hook
-
-## Troubleshooting
-
-### Data Not Loading
-
-- Ensure `incidents.json` exists in `src/data/`
-- Check that the JSON file is valid
-- Verify the file path in `App.jsx`
-
-### Charts Not Displaying
-
-- Check browser console for errors
-- Verify that data is being loaded correctly
-- Ensure Recharts is properly installed
-
-### Styling Issues
-
-- Verify Tailwind CSS is properly configured
-- Check that PostCSS is installed and configured
-- Ensure `index.css` imports Tailwind directives
-
-## License
-
-This project is open source and available for use and modification.
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit issues or pull requests.
