@@ -167,10 +167,6 @@ The `dataProcessor.js` utility provides robust data handling:
 
 6. **No Backend**: The application is designed to work entirely client-side with no backend requirements.
 
-## Customization
 
-### Changing Colors
-
-Chart colors can be customized by modifying the `color` prop in chart components or updating the `COLORS` array in `PieChart.jsx`.
 
 
