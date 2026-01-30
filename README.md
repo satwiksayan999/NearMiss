@@ -1,6 +1,8 @@
 # Near Miss Incident Dashboard
 
-A production-quality React dashboard for visualizing and analyzing near miss incident data. Built with modern web technologies to provide comprehensive insights into safety incidents.
+## 🚀 Live Demo
+👉 https://nearmiss.onrender.com/
+
 
 ## Features
 
